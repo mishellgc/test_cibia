@@ -1,0 +1,81 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee7e7;
+}
+.cibia-title {
+    font-size: 50px;
+    color: #043469;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cibia-description {
+    font-size: 20px;
+    color: #4f5052;
+    line-height: 1.0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.chat-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chat-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%; /* Borde redondeado para la imagen */
+}
+.chat-text {
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 80%;
+}
+
+/* Estilo específico para los mensajes del asistente */
+.assistant-text {
+    background-color: #0c679b6d; /* Color para los mensajes del asistente */
+}
+
+/* Estilo específico para los mensajes del usuario */
+.user-text {
+    background-color: #4a4949ba; /* Color para los mensajes del usuario */
+}
+/* Estilo para la barra lateral */
+.css-1d391kg {
+    background-color: #0a5197; /* Color azul */
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Estilo para la barra lateral */
+.css-1d391kg {
+    background-color: #0a5197; /* Color azul */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio inferior para separar de otros elementos */
+}
+
+.sidebar-image {
+    width: 150px;
+    height: 150px;
+    /*border-radius: 50%; /* Borde redondeado */
+    display: block;
+}
